@@ -1,0 +1,48 @@
+body {
+    background-color:darkblue;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+li {
+    display: inline;
+}
+h1, h2 {
+    color: white;
+    background: hotpink;
+}
+h1{
+    font-size: 200%;
+}
+h2{
+    font-size: 125%;
+}
+nav{
+    background: magenta;
+    height: 200%;
+    font-size: 150%; 
+}
+li{
+    display: inline;
+    margin-right: 1%;
+}
+section {
+    background-color: white;
+    font-size: 110%;
+}
+footer{
+    background: hotpink; 
+    color: white;
+    height: 200%;
+    font-weight: bold;
+}
+a{
+    color:darkblue;
+    font-size: 120%;
+}
+figcaption{
+    color:darkgoldenrod;
+}
+h3{
+   font-size: 150%; 
+}
