@@ -1,5 +1,6 @@
 <?php
-    $conn = mysqli_connect("localhost", "root", "", "database1");
+
+	require_once("config.php");
 
     if(!$conn){
         echo "<h3>Not able to connect with Database</h3>";
