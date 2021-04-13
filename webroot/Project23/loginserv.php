@@ -21,6 +21,5 @@
         echo "The password is incorrect";
         exit();
     }
-    mysqli_close($conn);
 
 ?>
