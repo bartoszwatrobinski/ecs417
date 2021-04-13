@@ -5,7 +5,7 @@
         $email=$_POST['email'];
         $password=$_POST['password'];
         
-        $sql=mysqli_query($link,"SELECT * FROM customer WHERE email='$email' AND password='$password'");
+        $sql=mysqli_query($conn,"SELECT * FROM customer WHERE email='$email' AND password='$password'");
         $rows = mysqli_num_rows($sql);
     }
 
