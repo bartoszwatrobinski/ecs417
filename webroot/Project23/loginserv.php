@@ -1,13 +1,6 @@
 <?php
-    $host="localhost";
-    $user="root";
-    $password="";
-    
-
-    $rows="";
-    $link = mysqli_connect($host,$user,$password);
-    $db = mysqli_select_db($link,"database1");
-
+	require_once("config.php");
+	$rows="";
     if(isset($_POST['email'])){
         $email=$_POST['email'];
         $password=$_POST['password'];
